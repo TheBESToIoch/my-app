@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgba(236, 216, 226, 0.876);
+  height: 100%;
 }
 
 .App-logo {
@@ -29,7 +31,7 @@
 }
 .wrapper {
   font-family: "Source Sans Pro", sans-serif;
-  width: 1100px;
+  width: 1000px;
   margin: auto;
   transition: all 1s ease;
 }
@@ -37,7 +39,7 @@
 .header-backround {
   width: 100%;
   height: 45px;
-  background-color: rgb(163, 195, 195);
+  background-color: rgb(106, 128, 128);
 }
 
 .header {
@@ -54,7 +56,6 @@
 .content {
   font-family: "Source Sans Pro", sans-serif;
   position: relative;
-  margin-top: 40px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -64,13 +65,13 @@
   position: relative;
   display: block;
   margin-top: 25px;
-  padding-top: 50px;
-  width: 500px;
-  height: 300px;
-  background: rgba(0, 136, 211, 0.1);
+  padding-top: 100px;
+  width: 450px;
+  height: 285px;
+  background: #8fd0d4;
   background-repeat: no-repeat;
   border-radius: 25px;
-  border: 1px solid green;
+  border: 3px solid green;
 }
 
 .text-content {
@@ -78,7 +79,7 @@
   position: absolute;
   width: 400px;
   bottom: 50px;
-  left: 50px;
+  left: 25px;
   font-size: calc(12px + 2vmin);
 }
 
@@ -97,7 +98,7 @@
   width: 0;
   left: 50%;
   height: 5px;
-  background: #00c0ff;
+  background: #000000;
   background-repeat: no-repeat;
   transition: all 1s ease;
 }
@@ -113,6 +114,11 @@
 .name-city {
   margin: 0;
   font-size: calc(10px + 2vmin);
+}
+
+.select {
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 @keyframes App-logo-spin {
